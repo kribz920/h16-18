@@ -1,0 +1,52 @@
+body {
+  background-color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+
+header {
+  background-image: url('../img/boz.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  float: right;
+  height: 30%;
+  width: auto;
+}
+
+.headertext {
+  color: white;
+  font-family: 'Comfortaa', cursive;
+}
+
+.main {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.col-2 {
+  background-color: lightgreen;
+  width: 25%;
+}
+
+.col-9 {
+  background-color: lightblue;
+  width: 75%;
+}
+
+.textblock {
+  display: flex;
+  text-align: left;
+}
